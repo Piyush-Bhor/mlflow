@@ -10,3 +10,4 @@ aiohttp<4
 boto3<2,>=1.28.56
 tiktoken<1
 slowapi<1,>=0.1.9
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
